@@ -6,3 +6,8 @@ RUN composer global require hirak/prestissimo
 
 # for codecov
 RUN apk add curl bash git
+
+# xdebug
+RUN apk add autoconf
+RUN apk add gcc g++ make
+RUN pecl install xdebug
