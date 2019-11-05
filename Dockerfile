@@ -11,3 +11,4 @@ RUN apk add curl bash git
 RUN apk add autoconf
 RUN apk add gcc g++ make
 RUN pecl install xdebug
+RUN docker-php-ext-enable xdebug
