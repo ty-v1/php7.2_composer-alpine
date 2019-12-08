@@ -16,3 +16,7 @@ RUN docker-php-ext-enable xdebug
 # mysql
 RUN docker-php-ext-install pdo_mysql
 RUN docker-php-ext-enable pdo_mysql
+
+# mbstring
+RUN docker-php-ext-install mbstring
+RUN docker-php-ext-enable mbstring
